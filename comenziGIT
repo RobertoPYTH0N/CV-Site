@@ -1,5 +1,14 @@
-git clone https://github.com/numeleproiect
+# O singura data per proiect
+git clone https://github.com/numeleproiect .
+
+# De fiecare data cand vreau sa adaug un anumit fisier in commit.
 git add nume_fisier
+
+# De fiecare data cand vreau sa adaug toate fisierele modificate in commit.
 git add  .
+
+# Mesajul commit-ului.
 git commit -m "Commitul fisierului"
+
+# Cand se trimite fisierul.
 git push
